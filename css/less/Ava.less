@@ -1,3 +1,57 @@
+//comm-list-style
+.comm-list-style{
+  li{
+    width: 100%;
+    height: 77px;
+    line-height: 77px;
+    font-size: 14px;
+    border-bottom: 1px dashed #e6e6e6;
+    img{
+      vertical-align: middle;
+    }
+    i{
+      font-size: 16px;
+      font-weight: bold;
+      width: 105px;
+      padding-left: 19px;
+      display: inline-block;
+    }
+  }
+}
+.security-btn{
+  width:100%;
+  height:41px;
+  line-height: 41px;
+  color: #fff;
+  display: block;
+  font-size:18px;
+  text-align: center;
+  margin-top:22px;
+  background: #ffb401;
+  border-radius: 4px;
+  border:none;
+  box-shadow: 0px 3px 0px #eca100;
+}
+.comm-btn1{
+  width:122px;
+  background: #ffb401;
+  box-shadow: 0px 3px 0px #eca100;
+}
+.comm-btn2{
+  width:122px;
+  background: #ff8f2c;
+  box-shadow: 0px 3px 0px #df7212;
+}
+
+//validate-style
+em.validate-prompt{
+  font-size: 12px;
+  color: #ffb401;
+  margin-left: 3px;
+  height: 28px;
+  line-height: 28px;
+  display: block;
+}
 //personal-center
 .personal-center{
   background: #f7f7f7;
@@ -33,10 +87,15 @@
           line-height: 44px;
           border-bottom: 1px solid #f5f5f5;
           text-align: center;
+          a{
+            color: #666;
+          }
         }
         li.active{
-          background: #5cd15c;
-          color: #fff;
+          a{
+            background: #5cd15c;
+            color: #fff;
+          }
         }
         li:first-of-type{
            background: url("../images/personal-icon2.png") 22px center no-repeat;
@@ -60,27 +119,13 @@
       .main-right-02{
         padding: 50px 29px 0;
       }
+      .main-right-03{
+        padding-bottom:326px;
+      }
       .main-right-con{
         width: 833px;
         border-left:1px solid #e6e6e6;
         box-sizing: border-box;
-        li{
-          width: 100%;
-          height: 77px;
-          line-height: 77px;
-          font-size: 14px;
-          border-bottom: 1px dashed #e6e6e6;
-          img{
-            vertical-align: middle;
-          }
-          i{
-            font-size: 16px;
-            font-weight: bold;
-            width: 105px;
-            padding-left: 19px;
-            display: inline-block;
-          }
-        }
         .edit-user-info{
           input[type=text]{
             border:none;
@@ -150,7 +195,7 @@
           box-shadow: 0px 3px 0px #eca100;
           background: #ffc029;
         }
-        //��Ȩ��
+        //binging-authorisation
         .title{
           height:44px;
           line-height: 44px;
@@ -167,8 +212,404 @@
         }
         .bind-list{
           margin: 0 29px;
+          overflow: auto;
+          .black{
+            color: #333;
+            font-size:14px;
+          }
+          .gray{
+            color: #999;
+            font-size:14px;
+            margin-right:30px;
+          }
+          .yellow{
+            color: #ffb401;
+            font-size: 12px;
+            background: url(../images/warn.png) left center no-repeat;
+            padding-left: 19px;
+          }
+          a{
+            width: 88px;
+            background: #ffb401;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 4px;
+            float: right;
+            margin-top: 21px;
+            text-align: center;
+            display: block;
+            height: 36px;
+            line-height: 36px;
+          }
         }
       }
     }
   }
 }
+//account-security
+.account-security{
+  .text-nav{
+    margin:20px 26px;
+    display: block;
+    font-size:14px;
+    color: #999999;
+  }
+  .security-con-ul{
+    width:253px;
+    margin:65px auto 319px;
+    li{
+      width:100%;
+    }
+    span{
+      font-size: 14px;
+      line-height: 14px;
+      color: #666;
+      display: block;
+      margin-bottom:28px;
+      i{
+        color: #333;
+        margin-left:20px;
+      }
+    }
+    .validate-code{
+      margin: 0;
+      padding: 0;
+      height: 42px;
+      width: 151px;
+      padding-left:10px;
+      border-radius: 4px;
+      border: 1px solid #e4e4e4;
+      border-right: none;
+      border-top-right-radius:0 ;
+      border-bottom-right-radius:0 ;
+    }
+    .send-validate-code{
+      width: 91px;
+      height: 44px;
+      color: #fff;
+      line-height: 44px;
+      font-size: 14px;
+      text-align: center;
+      float: right;
+      border:none;
+      background: #ffb401;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+  .change-pwd-txt{
+    input{
+      margin:0;
+      width:251px;
+      padding:0 0 0 10px;
+      height:42px;
+      border:1px solid #e4e4e4;
+      border-radius: 4px;
+    }
+  }
+}
+//find-password
+.find-password .con-box{
+  width:253px;
+  margin:22px auto 153px;
+  .tabcon{
+    width:100%;
+    height: 81px;
+    line-height:81px;
+    overflow: auto;
+    margin-bottom:20px;
+    border-bottom:1px solid #e4e4e4;
+    li{
+      width:50%;
+      float: left;
+      text-align: center;
+     i{
+       color: #666;
+       display: block;
+       font-size: 16px;
+       height: 34px;
+       line-height: 34px;
+       border-radius: 30px;
+       margin: 32px auto 15px;
+     }
+    }
+    li.active{
+      background: url("../images/index-nav-bg.png") center 15px no-repeat;
+    }
+    li.active i {
+      color: #fff;
+      background: #52ce52;
+    }
+  }
+  .tabcon-li{
+    li{
+      width:100%;
+      white-space:nowrap;
+      input{
+        width:213px;
+        height:42px;
+        border:1px solid #e4e4e4;
+        border-radius: 4px;
+        padding-left:38px;
+        font-size:14px;
+        margin:10px 0 10px;
+        background: url("../images/find-pwd-icon.png") no-repeat;
+        background-position: 13px -118px;
+      }
+      .validate-code{
+        margin: 0;
+        height: 42px;
+        width: 122px;
+        padding: 0 0 0 38px;
+        border: 1px solid #e4e4e4;
+        border-right: none;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+      .send-validate-code{
+        width: 91px;
+        height: 44px;
+        color: #fff;
+        line-height: 44px;
+        font-size: 14px;
+        text-align: center;
+        border: none;
+        padding: 0;
+        background: #ffb401;
+        border-radius: 0;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+    }
+    li:first-child input{
+      background-position: 13px 10px;
+    }
+    li:nth-child(2) input:first-child{
+      background-position: 13px -54px;
+    }
+    //验证样式行高
+    em{
+      height:12px;
+      line-height: 12px;
+    }
+  }
+  span{
+    font-size: 14px;
+    line-height: 14px;
+    color: #666;
+    display: block;
+    margin-bottom:28px;
+    i{
+      color: #333;
+      margin-left:20px;
+    }
+  }
+
+}
+//change-header-img
+.change-header-img{
+  text-align: center;
+  h2{
+    color: #666;
+    font-size:16px;
+    line-height:16px;
+    font-weight:normal;
+  }
+  img{
+    width:147px;
+    height:147px;
+    margin:30px auto 10px;
+  }
+  p{
+    font-size:12px;
+    color: #999;
+  }
+}
+.form_face{
+  .file-upload-txt{
+    display: none;
+  }
+}
+//login
+.login{
+  .con-box {
+    width:253px;
+    margin: 50px auto 90px;
+    .tabcon-li {
+      li {
+        width: 100%;
+        white-space: nowrap;
+        input {
+          width: 213px;
+          height: 42px;
+          border: 1px solid #e4e4e4;
+          border-radius: 4px;
+          padding-left: 38px;
+          font-size: 14px;
+          margin: 10px 0 10px;
+          background: url("../images/find-pwd-icon.png") no-repeat;
+          background-position: 13px -118px;
+        }
+        .validate-code {
+          margin: 0;
+          height: 42px;
+          width: 122px;
+          padding: 0 0 0 38px;
+          border: 1px solid #e4e4e4;
+          border-right: none;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+        .send-validate-code {
+          width: 91px;
+          height: 44px;
+          color: #fff;
+          line-height: 44px;
+          font-size: 14px;
+          text-align: center;
+          border: none;
+          padding: 0;
+          background: #ffb401;
+          border-radius: 0;
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+      }
+      li:first-child input {
+        background-position: 13px 10px;
+      }
+      li:nth-child(2) input:first-child,li:nth-child(3) input:first-child  {
+        background-position: 13px -54px;
+      }
+      //验证样式行高
+      em {
+        height: 12px;
+        line-height: 12px;
+      }
+    }
+    h2 {
+      font-size: 16px;
+      color: #666;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .agreement-txt{
+      color: #999;
+      height:38px;
+      line-height: 38px;
+      font-size: 12px;
+      a{
+        color: #ffc866;
+        text-decoration: underline;
+      }
+    }
+    .security-btn{
+      margin-top:0;
+    }
+    .validate-img{
+      width: 91px;
+      height: 44px;
+      color: #fff;
+      line-height: 44px;
+      font-size: 14px;
+      text-align: center;
+      float: right;
+      border:none;
+      display: block;
+      margin:10px auto 10px;
+      background: url("../images/validate-code-bg.png") center no-repeat;
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+    .validate-code{
+      margin:10px auto 10px!important;
+    }
+    .jump-login-txt{
+      color: #999;
+      margin-top:20px;
+      font-size: 12px;
+      text-align: right;
+      a{
+        color: #ffc866;
+        text-decoration: underline;
+      }
+    }
+  }
+  .con-box-01{
+    h2{
+      p{
+        font-size:14px;
+        color: #c6c6c6;
+        margin:10px auto 20px!important;
+      }
+    }
+  }
+  .tabcon-li-01{
+    width:100%;
+    overflow: hidden;
+    li{
+      width:49%;
+      float: left;
+      height:14px;
+      margin:17px auto 15px;
+      a{margin:0 10px;color: #ffb401;display: block;font-size: 14px;vertical-align: middle;}
+    }
+    li:first-child{
+      text-align: right;
+      border-right:1px solid #e4e4e4;
+    }
+  }
+  .tabcon-li-02{
+    width:159px;
+    margin: 0 auto;
+    overflow: auto;
+    li{
+      float: left;
+      i{
+        height:40px;
+        width:39px;
+        display: block;
+        margin:0 7px;
+        background: url("../images/other-methods.png") no-repeat;
+      }
+    }
+    li.on{
+      i{
+        background: url("../images/other-methods-on.png") no-repeat;
+      }
+    }
+    li:first-child i{
+      background-position: 0 0;
+    }
+    li:nth-child(2) i{
+      background-position: -54px 0;
+    }
+    li:nth-child(3) i{
+      background-position: -108px 0;
+    }
+
+  }
+  .login-btn{
+    margin-top:40px!important;}
+  .others-method{
+    width: 100%;
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+    color: #c2c2c2;
+    text-align: center;
+    em{
+      display: block;
+      width:70px;
+      height:1px;
+      border-top:1px solid #e4e4e4;
+      position: relative;
+      top: 22px;
+    }
+  }
+}
+
+
+
+

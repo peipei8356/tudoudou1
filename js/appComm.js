@@ -10,4 +10,19 @@ appComm.init = function () {
     }
 
 };
+//60秒后重新获取验证码
+appComm.getGetValidateCode60=function(btn){
+    if (wait===0) {
+        btn.removeAttribute("disabled");
+        btn.value = "获取验证码";
+        wait = 60;
+    }else{
+        btn.setAttribute("disabled",true);
+        btn.value = wait + "秒后重试";
+        wait--;
+        setTimeout(function(){
+            time(btn);
+        },1000);
+    }
+}
 
