@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2016/8/1.
+ * Created by Admin on 2016/8/1.
  */
 define([],function(){
     var page={};
@@ -16,11 +16,6 @@ define([],function(){
             $(".user-info").removeClass("hide");
             $(".edit-user-info").addClass("hide");
         });
-        //tab«–ªª
-        $('.tabcon li').plusTab({
-            opt_2: '.wrapcon'
-        });
-
     };
     return page;
 });
