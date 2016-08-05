@@ -13,6 +13,16 @@
     <link href="css/reset.css" rel="stylesheet" type="text/css">
     <link href="css/swiper.css" rel="stylesheet" type="text/css">
     <link href="css/allcss.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        .confirm-modify input{
+            margin: 10px auto 10px;
+            width: 251px;
+            padding: 0 0 0 10px;
+            height: 42px;
+            border: 1px solid #e4e4e4;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body id="currPage" data-pageJs="pageJs/account-security" class="personal-center account-security">
 
@@ -60,8 +70,8 @@
         <div class="wrapcon main-right-con fr">
             <div class="view main-right-01">
                 <span class="text-nav"><i>账户安全</i>&gt;<i>修改手机号</i></span>
-                <ul class="security-con-ul">
-                    <li><span>您绑定的邮箱是:<i>138****1798</i></span></li>
+                <ul class="security-con-ul confirm-modify">
+                    <li><input type="text" placehodler="请输入新的手机号"/></li>
                     <li>
                         <input type="text" placehodler="请输入手机验证码" class="validate-code"/>
                         <input type="button" id="send-code" class="send-validate-code" value="发送验证码">

@@ -14,7 +14,7 @@
     <link href="css/swiper.css" rel="stylesheet" type="text/css">
     <link href="css/allcss.css" rel="stylesheet" type="text/css">
 </head>
-<body id="currPage" data-pageJs="pageJs/account-security" class="personal-center account-security">
+<body id="currPage"  class="personal-center">
 
 <!--头部 start-->
 <div class="header">
@@ -52,23 +52,22 @@
     <div class="main-box-content">
         <div class="main-left-con fl">
             <ul>
-                <li class="active"><a href="account-security.html">账户安全</a></li>
-                <li><a href="my-info.html">个人信息</a></li>
+                <li><a href="account-security.html">账户安全</a></li>
+                <li class="active"><a href="my-info.html">个人信息</a></li>
                 <li><a href="binding-authorization.html">绑定授权</a></li>
             </ul>
         </div>
         <div class="wrapcon main-right-con fr">
-            <div class="view main-right-01">
-                <span class="text-nav"><i>账户安全</i>&gt;<i>修改手机号</i></span>
-                <ul class="security-con-ul">
-                    <li><span>您绑定的邮箱是:<i>138****1798</i></span></li>
-                    <li>
-                        <input type="text" placehodler="请输入手机验证码" class="validate-code"/>
-                        <input type="button" id="send-code" class="send-validate-code" value="发送验证码">
-                        <em class="validate-prompt">请输入正确的验证码</em>
-                    </li>
-                    <li><a href="##" class="security-btn">提交</a></li>
-                </ul>
+            <div class="view main-right-02">
+                <div class="header-img"><a href="##"><i></i><span>修改头像</span></a></div>
+                <div class="edit-user-info comm-list-style">
+                    <ul class="">
+                        <li><img src="images/personal-icon6.png"/><i>昵称</i><input type="text" placeholder="请输入昵称"/> </li>
+                        <li><img src="images/personal-icon7.png"/><i>生日</i><input type="text" placeholder="请输入生日 格式为0000-00-00"/> </li>
+                        <li><img src="images/personal-icon8.png"/><i>性别</i><em><input type="radio" name="sex">男</em><em><input type="radio" name="sex">女</em></li>
+                    </ul>
+                    <a href="##" class="save-info-btn">保存</a>
+                </div>
             </div>
         </div>
     </div>
