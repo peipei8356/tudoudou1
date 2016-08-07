@@ -3,12 +3,14 @@
         jquery: 'lib/jquery.min',
         tab: 'lib/tab',
         swiper: 'lib/swiper.min',
+        jwplayer:'lib/jwplayer',
         appComm: 'appComm'
     },
 
     shim: {
         tab: {deps: ['jquery']},
-        swiper:{deps: ['jquery']}
+        swiper:{deps: ['jquery']},
+        jwplayer:{deps: ['jquery']}
     }
 });
 

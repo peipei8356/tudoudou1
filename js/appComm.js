@@ -8,8 +8,8 @@ appComm.init = function () {
             page.init();
         });
     }
-
 };
+var wait = 60;
 //60秒后重新获取验证码
 appComm.getGetValidateCode60=function(btn){
     if (wait===0) {
@@ -21,8 +21,10 @@ appComm.getGetValidateCode60=function(btn){
         btn.value = wait + "秒后重试";
         wait--;
         setTimeout(function(){
-            time(btn);
+            appComm.getGetValidateCode60(btn);
         },1000);
     }
-}
+};
+
+
 

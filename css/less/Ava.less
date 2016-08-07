@@ -42,7 +42,9 @@
   background: #ff8f2c;
   box-shadow: 0px 3px 0px #df7212;
 }
-
+.phcolor{
+  color: #999;
+}
 //validate-style
 em.validate-prompt{
   font-size: 12px;
@@ -131,6 +133,7 @@ em.validate-prompt{
             border:none;
             color: #999;
             height: 70px;
+            line-height: 70px;
             width: 260px;
           }
           input[type=text]:focus{
@@ -254,6 +257,19 @@ em.validate-prompt{
     font-size:14px;
     color: #999999;
   }
+  .confirm-modify{
+    li{
+      margin-bottom:20px;
+    }
+    .mobile-txt{
+      width: 251px;
+      padding: 0 0 0 10px;
+      height: 42px;
+      line-height: 42px;
+      border: 1px solid #e4e4e4;
+      border-radius: 4px;
+    }
+  }
   .security-con-ul{
     width:253px;
     margin:65px auto 319px;
@@ -276,6 +292,7 @@ em.validate-prompt{
       padding: 0;
       height: 42px;
       width: 162px;
+      vertical-align: middle;
       padding-left:10px;
       border-radius: 4px;
       border: 1px solid #e4e4e4;
@@ -292,6 +309,7 @@ em.validate-prompt{
       text-align: center;
       float: right;
       border:none;
+      vertical-align: middle;
       background: #ffb401;
       border-top-right-radius: 4px;
       border-bottom-right-radius: 4px;
@@ -303,6 +321,7 @@ em.validate-prompt{
       width:251px;
       padding:0 0 0 10px;
       height:42px;
+      line-height: 42px;
       border:1px solid #e4e4e4;
       border-radius: 4px;
     }
@@ -348,6 +367,8 @@ em.validate-prompt{
       input{
         width:100%;
         height:42px;
+        line-height: 42px;
+        vertical-align: middle;
         border:1px solid #e4e4e4;
         border-radius: 4px;
         padding-left:38px;
@@ -360,6 +381,7 @@ em.validate-prompt{
         margin: 0;
         height: 44px;
         width: 161px;
+        vertical-align: middle;
         padding: 0 0 0 38px;
         border: 1px solid #e4e4e4;
         border-right: none;
@@ -376,6 +398,7 @@ em.validate-prompt{
         border: none;
         padding: 0;
         background: #ffb401;
+        vertical-align: middle;
         border-radius: 0;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -441,10 +464,10 @@ em.validate-prompt{
     .tabcon-li {
       li {
         width: 100%;
-        white-space: nowrap;
         input {
           width: 253px;
           height: 42px;
+          line-height: 42px;
           border: 1px solid #e4e4e4;
           border-radius: 4px;
           padding-left: 38px;
@@ -457,6 +480,8 @@ em.validate-prompt{
           margin: 0;
           height: 42px;
           width: 161px;
+          line-height: 42px;
+          vertical-align: middle;
           padding: 0 0 0 38px;
           border: 1px solid #e4e4e4;
           border-right: none;
@@ -466,9 +491,10 @@ em.validate-prompt{
         .send-validate-code {
           width: 91px;
           height: 42px;
-          color: #fff;
           line-height: 42px;
           font-size: 14px;
+          color: #fff;
+          vertical-align: middle;
           text-align: center;
           border: none;
           padding: 0;
