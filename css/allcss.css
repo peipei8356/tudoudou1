@@ -282,7 +282,7 @@ html {
   font-family: 'Microsoft Yahei', Arial, Helvetica, "黑体", sans-serif;
   width: 100%;
   min-width: 1000px;
-  height: 100%;
+  height: auto;
   font-size: 14px;
 }
 body {
@@ -2583,4 +2583,401 @@ em.validate-prompt {
   border-top: 1px solid #e4e4e4;
   position: relative;
   top: 22px;
+}
+.app-download .banner {
+  width: 100%;
+  height: 580px;
+  position: relative;
+  background: url("../images/banner-img02.jpg") center no-repeat;
+}
+.app-download .banner-box {
+  width: 1000px;
+  height: 172px;
+  overflow: hidden;
+  margin: 0 auto;
+  top: 290px;
+  position: relative;
+}
+.app-download .img-box {
+  width: 441px;
+  height: 100%;
+  float: right;
+}
+.app-download .img-box .erweima {
+  width: 171px;
+  height: 172px;
+  background: url("../images/erweima.png") center no-repeat;
+}
+.app-download .img-box .btn-box {
+  vertical-align: middle;
+}
+.app-download .img-box .btn-box a {
+  width: 242px;
+  height: 61px;
+  display: block;
+}
+.app-download .img-box .btn-box .ios-btn {
+  margin: 17px 0 26px;
+  background: url("../images/ios-btn.png") center no-repeat;
+}
+.app-download .img-box .btn-box .android-btn {
+  background: url("../images/android-btn.png") center no-repeat;
+}
+.app-download .main {
+  width: 100%;
+  height: auto;
+}
+.app-download .main-con-box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.app-download .main-con-box h2 {
+  font-size: 24px;
+  height: 114px;
+  line-height: 114px;
+  color: #52ce52;
+  font-weight: normal;
+}
+.app-download .main-con-box ul {
+  width: 100%;
+  height: 226px;
+}
+.app-download .main-con-box ul li {
+  height: 100%;
+  float: left;
+}
+.app-download .main-con-box ul .step01 {
+  width: 334px;
+}
+.app-download .main-con-box ul .step02 {
+  width: 312px;
+  padding-left: 10px;
+}
+.app-download .main-con-box ul .step03 {
+  width: 354px;
+  padding-left: 12px;
+}
+.app-download .main-con-box ul .step i {
+  font-size: 18px;
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  padding-top: 4px;
+  text-align: center;
+  margin-right: 9px;
+  vertical-align: middle;
+}
+.app-download .main-con-box ul .step em {
+  font-size: 18px;
+  line-height: 22px;
+  color: #333;
+  margin-top: 4px;
+  width: 232px;
+  display: inline-block;
+}
+.app-download .main-con-box ul .icon-box {
+  height: 128px;
+}
+.app-download .main-con-box ul .icon03 {
+  padding: 10px 0 0 2px;
+}
+.app-download .main-con-box ul .icon03 .tudou-icon {
+  margin-right: 16px;
+}
+.app-download .main-con-box ul .icon03 span {
+  width: 188px;
+  margin-right: 4px;
+  /*多行本文溢出*/
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.app-download .main-con-box ul .icon03 span p {
+  color: #666;
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 5px;
+}
+.app-download .main-con-box ul .icon03 span .title {
+  font-size: 18px;
+  color: #333;
+  line-height: 39px;
+  margin-bottom: 0;
+}
+.app-download .main-con-box .ios-step-box {
+  border-bottom: 1px dashed #dad9d9;
+}
+.app-download .main-con-box .ios-step-box .icon01 {
+  padding: 7px 0 0 52px;
+}
+.app-download .main-con-box .ios-step-box .step i {
+  background: url("../images/ios-step-btn.png") center no-repeat;
+}
+.app-download .main-con-box .android-step-box {
+  margin: 54px 0 25px;
+  height: 255px;
+}
+.app-download .main-con-box .android-step-box .step i {
+  background: url("../images/android-step-btn.png") center no-repeat;
+}
+.app-download .main-con-box .android-step-box .step03 {
+  position: relative;
+}
+.app-download .main-con-box .android-step-box span {
+  width: 210px!important;
+}
+.app-download .main-con-box .android-step-box .install-bg {
+  position: absolute;
+  top: 19px;
+  right: -2px;
+}
+.product-DadAndMom .banner {
+  width: 100%;
+  height: 813px;
+  background: url("../images/pro-banner-img1.jpg") center no-repeat;
+}
+.product-DadAndMom .banner-box {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.product-DadAndMom .banner-box .banner-con-box {
+  position: relative;
+  top: 196px;
+}
+.product-DadAndMom .banner-box .banner-con-box h2 {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 22px;
+  background: url("../images/banner-title-icon.png") left center no-repeat;
+}
+.product-DadAndMom .banner-box .banner-con-box p {
+  color: #333;
+  font-size: 51px;
+  line-height: 74px;
+}
+.product-DadAndMom .banner-box .banner-con-box .erweima {
+  width: 171px;
+  height: 172px;
+  margin: 30px 0 10px 20px;
+}
+.product-DadAndMom .banner-box .banner-con-box span {
+  display: block;
+  font-size: 14px;
+  color: #444;
+  margin-left: 32px;
+}
+.product-DadAndMom .main-con-box {
+  width: 100%;
+}
+.product-DadAndMom .modules {
+  width: 100%;
+}
+.product-DadAndMom .modules .modules-con {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+.product-DadAndMom .modules .modules-con h2 {
+  color: #333;
+  font-size: 38px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.product-DadAndMom .modules .modules-con p {
+  color: #666;
+  line-height: 40px;
+  font-size: 20px;
+}
+.product-DadAndMom .modules .category-label {
+  overflow: auto;
+  margin-top: 20px;
+}
+.product-DadAndMom .modules .category-label li {
+  width: 88px;
+  height: 34px;
+  float: left;
+  margin: 0 8px 8px 0;
+  text-align: center;
+  background: url("../images/pro-btn-icons.png") center no-repeat;
+}
+.product-DadAndMom .modules .category-label li a {
+  display: block;
+  color: #fff;
+  padding-top: 10px;
+}
+.product-DadAndMom .modules .category-label li.green {
+  background-position: 0 0;
+}
+.product-DadAndMom .modules .category-label li.blue {
+  background-position: -194px 0;
+}
+.product-DadAndMom .modules .category-label li.orange-yellow {
+  background-position: -97px 0;
+}
+.product-DadAndMom .modules .category-label li.orange {
+  background-position: -293px 0;
+}
+.product-DadAndMom .modules02,
+.product-DadAndMom .modules06,
+.product-DadAndMom .modules08 {
+  width: 100%;
+  height: 580px;
+  text-align: center;
+}
+.product-DadAndMom .modules02 p,
+.product-DadAndMom .modules06 p,
+.product-DadAndMom .modules08 p {
+  font-size: 44px!important;
+  line-height: 62px!important;
+  color: #fff!important;
+  text-shadow: 0px 3px 7px rgba(69, 69, 69, 0.47);
+}
+.product-DadAndMom .modules01,
+.product-DadAndMom .modules03,
+.product-DadAndMom .modules05,
+.product-DadAndMom .modules07 {
+  height: 400px;
+  overflow: auto;
+  background: #fff;
+}
+.product-DadAndMom .modules01 .modules-con {
+  padding: 73px 64px 0 48px;
+  height: 100%;
+}
+.product-DadAndMom .modules01 .category-list-01 {
+  width: 384px;
+}
+.product-DadAndMom .modules02 {
+  background: url("../images/pro-banner-img2.jpg") center no-repeat;
+}
+.product-DadAndMom .modules02 .modules-con {
+  padding-top: 480px;
+}
+.product-DadAndMom .modules03 .modules-con {
+  padding: 91px 52px 0 129px;
+  height: 100%;
+}
+.product-DadAndMom .modules03 .txt-box {
+  margin-top: 42px;
+}
+.product-DadAndMom .modules04 {
+  height: 580px;
+  background: #e8f2f7;
+}
+.product-DadAndMom .modules04 .modules-con {
+  padding-top: 100px;
+}
+.product-DadAndMom .modules04 .vedio-list {
+  width: 100%;
+}
+.product-DadAndMom .modules04 .vedio-list li {
+  float: left;
+  width: 320px;
+  height: 388px;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.product-DadAndMom .modules04 .vedio-list .vedio-center {
+  margin: 0 20px;
+}
+.product-DadAndMom .modules04 .vedio-list .describe-box {
+  top: -10px;
+  position: relative;
+  background: #fff;
+  border-radius: 4px;
+  padding: 44px 13px 28px 16px;
+}
+.product-DadAndMom .modules04 .vedio-list .describe-box h2 {
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+}
+.product-DadAndMom .modules04 .vedio-list .describe-box p {
+  color: #666;
+  font-size: 16px;
+  line-height: 20px;
+}
+.product-DadAndMom .modules04 .vedio-list .vedio-icon {
+  width: 66px;
+  height: 67px;
+  z-index: 99;
+  display: block;
+  position: absolute;
+  top: 188px;
+  left: 122px;
+  background: url("../images/vedeo-pause.png") center no-repeat;
+}
+.product-DadAndMom .modules05 .modules-con {
+  padding: 86px 47px 0 125px;
+  height: 100%;
+}
+.product-DadAndMom .modules05 .txt-box {
+  margin-top: 15px;
+}
+.product-DadAndMom .modules06 {
+  background: url("../images/pro-banner-img3.jpg") center no-repeat;
+}
+.product-DadAndMom .modules06 .modules-con {
+  padding-top: 425px;
+}
+.product-DadAndMom .modules06 p {
+  font-size: 40px!important;
+  line-height: 62px;
+}
+.product-DadAndMom .modules07 .modules-con {
+  padding: 80px 17px 0 135px;
+  height: 100%;
+}
+.product-DadAndMom .modules07 .txt-box {
+  margin-top: 15px;
+}
+.product-DadAndMom .modules08 {
+  background: url("../images/pro-banner-img4.jpg") center no-repeat;
+}
+.product-DadAndMom .modules08 .modules-con {
+  padding-top: 470px;
+}
+.product-DadAndMom .modules09 {
+  width: 100%;
+  height: 681px;
+  background: url("../images/pro-banner-img5.jpg") center no-repeat;
+}
+.product-DadAndMom .modules09 .modules-con {
+  padding: 190px 46px 0;
+  height: 100%;
+}
+.product-DadAndMom .modules09 h2 {
+  font-size: 48px;
+  color: #333;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.product-DadAndMom .modules09 p {
+  color: #666;
+  font-size: 26px;
+  margin-bottom: 100px;
+}
+.product-DadAndMom .win-prop {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.5);
+}
+.product-DadAndMom #mediaplayer {
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  margin-top: -250px;
+  margin-left: -400px;
 }
