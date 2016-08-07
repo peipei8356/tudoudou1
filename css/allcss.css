@@ -1994,22 +1994,22 @@ em.validate-prompt {
   background: #5cd15c;
   color: #fff;
 }
-.personal-center .main-box .main-box-content .main-left-con li:first-of-type {
+.personal-center .main-box .main-box-content .main-left-con li.left-icon1 {
   background: url("../images/personal-icon2.png") 22px center no-repeat;
 }
-.personal-center .main-box .main-box-content .main-left-con li:first-of-type.active {
+.personal-center .main-box .main-box-content .main-left-con li.left-icon1.active {
   background: url("../images/personal-icon2-on.png") 22px center no-repeat #5cd15c;
 }
-.personal-center .main-box .main-box-content .main-left-con li:nth-child(2) {
+.personal-center .main-box .main-box-content .main-left-con li.left-icon2 {
   background: url("../images/personal-icon3.png") 22px center no-repeat;
 }
-.personal-center .main-box .main-box-content .main-left-con li:nth-child(2).active {
+.personal-center .main-box .main-box-content .main-left-con li.left-icon2.active {
   background: url("../images/personal-icon3-on.png") 22px center no-repeat #5cd15c;
 }
-.personal-center .main-box .main-box-content .main-left-con li:nth-child(3) {
+.personal-center .main-box .main-box-content .main-left-con li.left-icon3 {
   background: url("../images/personal-icon4.png") 22px center no-repeat;
 }
-.personal-center .main-box .main-box-content .main-left-con li:nth-child(3).active {
+.personal-center .main-box .main-box-content .main-left-con li.left-icon3.active {
   background: url("../images/personal-icon4-on.png") 22px center no-repeat #5cd15c;
 }
 .personal-center .main-box .main-box-content .main-right-02 {
@@ -2266,11 +2266,14 @@ em.validate-prompt {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.find-password .con-box .tabcon-li li:first-child input {
+.find-password .con-box .tabcon-li li .phone-icon {
   background-position: 13px 10px;
 }
-.find-password .con-box .tabcon-li li:nth-child(2) input:first-child {
+.find-password .con-box .tabcon-li li .shield-icon {
   background-position: 13px -54px;
+}
+.find-password .con-box .tabcon-li li .email-icon {
+  background-position: 13px -184px;
 }
 .find-password .con-box .tabcon-li em {
   height: 12px;
@@ -2351,12 +2354,14 @@ em.validate-prompt {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.login .con-box .tabcon-li li:first-child input {
+.login .con-box .tabcon-li li .phone-icon {
   background-position: 13px 10px;
 }
-.login .con-box .tabcon-li li:nth-child(2) input:first-child,
-.login .con-box .tabcon-li li:nth-child(3) input:first-child {
+.login .con-box .tabcon-li li .shield-icon {
   background-position: 13px -54px;
+}
+.login .con-box .tabcon-li li .lock-icon {
+  background-position: 13px -118px;
 }
 .login .con-box .tabcon-li em {
   height: 12px;
@@ -2432,7 +2437,7 @@ em.validate-prompt {
   font-size: 14px;
   vertical-align: middle;
 }
-.login .tabcon-li-01 li:first-child {
+.login .tabcon-li-01 li.li-border-right {
   text-align: right;
   border-right: 1px solid #e4e4e4;
 }
@@ -2454,13 +2459,13 @@ em.validate-prompt {
 .login .tabcon-li-02 li.on i {
   background: url("../images/other-methods-on.png") no-repeat;
 }
-.login .tabcon-li-02 li:first-child i {
+.login .tabcon-li-02 li.others-method-01 i {
   background-position: 0 0;
 }
-.login .tabcon-li-02 li:nth-child(2) i {
+.login .tabcon-li-02 li.others-method-02 i {
   background-position: -54px 0;
 }
-.login .tabcon-li-02 li:nth-child(3) i {
+.login .tabcon-li-02 li.others-method-03 i {
   background-position: -108px 0;
 }
 .login .login-btn {
