@@ -88,11 +88,11 @@ body{
         float: right;
     }
     .nav{
-        height: 100%;
-        overflow: hidden;
+        height: 84px;
         float: left;
         li{
             float: left;
+            position: relative;
             a{
                 color: #000;
                 font-size: 16px;
@@ -109,6 +109,54 @@ body{
                 color: #fff;
                 background: #52ce52;
             }
+            div.sub-nav{
+                a{
+                    display: block;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                    padding-left: 11px;
+                    color: #000;
+                    background: none;
+                }
+                a:hover,a.active{
+                    background: #52ce52;
+                    color: #fff;
+                    border-radius: 0;
+                }
+            }
+        }
+        li.parent-nav{
+
+            cursor: pointer;
+        }
+        div.sub-nav{
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 75px;
+            width: 106px;
+            z-index: 999;
+            background: #eef6e7;
+            border: 2px solid #52ce52;
+            a{
+                display: block;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                padding-left: 11px;
+            }
+            a:hover,a.active{
+                background: #52ce52;
+                color: #fff;
+                border-radius: 0;
+            }
+        }
+        li.parent-nav:hover{
+            height: 215px;
+            div.sub-nav{
+                display: block;
+            }
         }
     }
     .loginbox{
@@ -119,6 +167,31 @@ body{
             font-size: 16px;
             color: #666;
             margin: 30px 20px 0 0;
+        }
+    }
+    .logged{
+        float: right;
+        margin-top: 24px;
+        a{
+            display: block;
+            height: 34px;
+        }
+        img{
+            width: 34px;
+            height: 34px;
+            margin-right: 10px;
+            border-radius: 50%;
+            float: left;
+        }
+        span{
+            display: block;
+            float: left;
+            height: 34px;
+            line-height: 34px;
+            font-size: 12px;
+            color: #666;
+            padding-right: 24px;
+            background: url(../images/logged-ico.png) right center no-repeat;
         }
     }
 }
@@ -200,8 +273,12 @@ body{
 .footer{
     width: 100%;
     height: 256px;
-    background: url(../images/footer-bg.jpg) left top repeat-x #404040;
+    padding-top: 9px;
+    background: url(../images/footer-bg.png) left top repeat-x;
     position: relative;
+    .top{
+        background: #404040;
+    }
     .wrap{
         overflow: hidden;
     }
@@ -209,13 +286,13 @@ body{
         display: block;
         width: 121px;
         height: 73px;
-        margin: 72px 74px 45px;
+        margin: 62px 74px 45px;
         float: left;
     }
     ul{
         overflow: hidden;
         height: 190px;
-        padding-top: 50px;
+        padding-top: 40px;
         float: left;
         li{
             float: left;
@@ -238,6 +315,7 @@ body{
         height: 65px;
         width: 100%;
         border-top: 1px solid #5a5a5a;
+        background: #404040;
         p{
             font-size: 11px;
             color: #666;
