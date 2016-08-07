@@ -823,6 +823,7 @@ body {
   -webkit-animation: fun_in3 .6s .5s linear both;
   animation: fun_in3 .6s .5s linear both;
 }
+/*嘉年华*/
 .carnival {
   background: #f7f7f7;
 }
@@ -895,6 +896,9 @@ body {
 .carnival .product-taste h3 {
   color: #30c3e4;
 }
+.carnival .modules04 {
+  padding-bottom: 0;
+}
 .carnival .modules04 h3 {
   color: #e84b8e;
 }
@@ -913,19 +917,81 @@ body {
 .carnival .modules04 .imglist li a p {
   margin: 0;
 }
+.carnival .active {
+  margin-top: -40px;
+}
 .carnival .active h3 {
   color: #fd7158;
 }
-.carnival .active .swiper-container {
-  width: 500px;
-  height: 300px;
-  margin: 20px auto;
+.carnival .active img {
+  height: 533px!important;
 }
-.carnival .active .swiper-slide {
+.carnival .active .device {
+  width: 795px;
+  height: 533px;
+  position: relative;
+  margin-bottom: 55px;
+}
+.carnival .active .device .arrow-left {
+  background: url(../images/arrows.png) no-repeat left top;
+  position: absolute;
+  left: -75px;
+  top: 50%;
+  margin-top: -41px;
+  width: 25px;
+  height: 82px;
+  z-index: 999;
+}
+.carnival .active .device .arrow-right {
+  background: url(../images/arrows.png) no-repeat left bottom;
+  position: absolute;
+  right: -75px;
+  top: 50%;
+  margin-top: -41px;
+  width: 25px;
+  height: 82px;
+  z-index: 999;
+}
+.carnival .active .swiper-container {
+  width: 795px;
+  height: 533px;
+}
+.carnival .active .pagination {
+  position: absolute;
+  left: 0;
   text-align: center;
-  font-size: 18px;
+  bottom: 10px;
+  width: 100%;
+  z-index: 999;
+}
+.carnival .active .swiper-pagination-switch {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0 3px;
+}
+.carnival .active .swiper-active-switch {
   background: #fff;
-  line-height: 300px;
+}
+.carnival .past-active h3 {
+  color: #333;
+}
+.carnival .past-active h3 span {
+  display: block;
+  width: 415px;
+  height: 1px;
+  background: #e4e4e4;
+  position: relative;
+  top: 15px;
+}
+.carnival .past-active .imglist {
+  width: 839px;
+  margin: 0 auto;
+}
+.carnival .past-active .imglist li {
+  padding-right: 32px;
+  margin-bottom: 70px;
 }
 /*详情页*/
 .details {
@@ -1898,6 +1964,12 @@ body {
 }
 #mediaplayer_logo {
   display: none!important;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
 }
 .comm-list-style li {
   width: 100%;
