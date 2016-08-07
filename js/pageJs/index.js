@@ -2,6 +2,15 @@
 /*
 $(function (){
 
+<<<<<<< HEAD
+=======
+    //banner切换
+    var swiper = new Swiper('.swiper-container-banner', {
+        pagination: '.swiper-pagination-banner',
+        paginationClickable: true,
+        autoplay: 9000
+    });
+>>>>>>> 8401625f559e19c78680a11121e444d8dcc30862
 
 
 });

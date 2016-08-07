@@ -613,19 +613,21 @@ body {
   position: relative;
 }
 .index .modules03 .videobox .wrapcon {
-  width: 785px;
+  width: 795px;
   height: 475px;
   /*450*/
   padding: 5px 5px 0;
   overflow: hidden;
 }
-.index .modules03 .videobox .wrapcon #mediaplayer_logo {
-  display: none!important;
-}
 .index .modules03 .videobox .tabcon {
   width: 771px;
   height: 115px;
   padding: 11px 12px 0 12px;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  /* Firefox */
+  -webkit-box-sizing: content-box;
+  /* Safari */
 }
 .index .modules03 .videobox .tabcon li {
   width: 185px;
@@ -634,6 +636,11 @@ body {
   padding-right: 10px;
   position: relative;
   cursor: pointer;
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  /* Firefox */
+  -webkit-box-sizing: content-box;
+  /* Safari */
 }
 .index .modules03 .videobox .tabcon li img {
   width: 100%;
@@ -815,6 +822,176 @@ body {
 .index .fun4.active {
   -webkit-animation: fun_in3 .6s .5s linear both;
   animation: fun_in3 .6s .5s linear both;
+}
+/*嘉年华*/
+.carnival {
+  background: #f7f7f7;
+}
+.carnival .banner .view1 span.span1 {
+  margin-left: -404px;
+}
+.carnival .banner .view1 span.span1 img {
+  margin-top: 35px;
+}
+.carnival .main {
+  background: #fff;
+  border: 1px solid #e4e4e4;
+  padding: 0 47px;
+}
+.carnival .plan {
+  overflow: hidden;
+  background: url(../images/carnival-jihuabiao.jpg) center 30px no-repeat;
+  border-bottom: 1px dashed #e4e4e4;
+}
+.carnival .plan li {
+  float: left;
+  text-align: center;
+  margin-top: 88px;
+  margin-right: 194px;
+  padding-bottom: 30px;
+}
+.carnival .plan li p {
+  font-size: 18px;
+  color: #333;
+  line-height: 24px;
+}
+.carnival .plan li span {
+  font-size: 16px;
+  color: #666;
+}
+.carnival .plan li.nomarginrig {
+  margin-right: 0;
+}
+.carnival h3 {
+  color: #52ce52;
+  font-size: 30px;
+  padding: 40px 0 22px 0;
+  text-align: center;
+  font-weight: normal;
+}
+.carnival .videos-box .mediaplayer-box {
+  width: 795px;
+  height: 466px;
+  border: 15px solid #f0f0f0;
+  margin: 0 auto;
+}
+.carnival .cozy-time {
+  width: 795px;
+  margin: 0 auto;
+}
+.carnival .cozy-time h3 {
+  color: #ff9a00;
+}
+.carnival .cozy-time .img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.carnival .cozy-time p {
+  color: #666;
+  text-align: center;
+  line-height: 22px;
+  margin: -10px 0 15px;
+}
+.carnival .product-taste h3 {
+  color: #30c3e4;
+}
+.carnival .modules04 {
+  padding-bottom: 0;
+}
+.carnival .modules04 h3 {
+  color: #e84b8e;
+}
+.carnival .modules04 .imglist {
+  margin: 0;
+  width: 795px;
+}
+.carnival .modules04 .imglist li {
+  padding-right: 10px;
+  margin-bottom: 40px;
+}
+.carnival .modules04 .imglist li a {
+  width: 258px;
+  height: 165px;
+}
+.carnival .modules04 .imglist li a p {
+  margin: 0;
+}
+.carnival .active {
+  margin-top: -40px;
+}
+.carnival .active h3 {
+  color: #fd7158;
+}
+.carnival .active img {
+  height: 533px!important;
+}
+.carnival .active .device {
+  width: 795px;
+  height: 533px;
+  position: relative;
+  margin-bottom: 55px;
+}
+.carnival .active .device .arrow-left {
+  background: url(../images/arrows.png) no-repeat left top;
+  position: absolute;
+  left: -75px;
+  top: 50%;
+  margin-top: -41px;
+  width: 25px;
+  height: 82px;
+  z-index: 999;
+}
+.carnival .active .device .arrow-right {
+  background: url(../images/arrows.png) no-repeat left bottom;
+  position: absolute;
+  right: -75px;
+  top: 50%;
+  margin-top: -41px;
+  width: 25px;
+  height: 82px;
+  z-index: 999;
+}
+.carnival .active .swiper-container {
+  width: 795px;
+  height: 533px;
+}
+.carnival .active .pagination {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  z-index: 999;
+}
+.carnival .active .swiper-pagination-switch {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0 3px;
+}
+.carnival .active .swiper-active-switch {
+  background: #fff;
+}
+.carnival .past-active h3 {
+  color: #333;
+}
+.carnival .past-active h3 span {
+  display: block;
+  width: 415px;
+  height: 1px;
+  background: #e4e4e4;
+  position: relative;
+  top: 15px;
+}
+.carnival .past-active .imglist {
+  width: 839px;
+  margin: 0 auto;
+}
+.carnival .past-active .imglist li {
+  padding-right: 32px;
+  margin-bottom: 70px;
 }
 /*详情页*/
 .details {
@@ -1775,6 +1952,24 @@ body {
 }
 .noborder {
   border: none!important;
+}
+#mediaplayer_display_button_play,
+#mediaplayer_display_button_replay {
+  width: 84px!important;
+  height: 84px!important;
+  background: url(../images/play-ico.png) no-repeat !important;
+}
+#mediaplayer_display_button {
+  background: transparent none!important;
+}
+#mediaplayer_logo {
+  display: none!important;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
 }
 .comm-list-style li {
   width: 100%;
