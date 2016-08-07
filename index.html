@@ -47,7 +47,7 @@
 
     <!--banner start-->
     <div class="banner">
-        <div class="swiper-container">
+        <div class="swiper-container swiper-container-banner">
             <div class="swiper-wrapper">
                 <div class="swiper-slide view1">
                     <span class="span1"><img src="images/index-banner-text01.png" alt="" /></span>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <!-- Add Pagination -->
-            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination swiper-pagination-banner"></div>
         </div>
     </div>
     <!--end-->
@@ -311,13 +311,11 @@
     <script>
         jwplayer('mediaplayer').setup({
             'flashplayer': 'js/lib/jwplayer.flash.swf',
+            'width': '785px',
+            'height': '471px',
             'image': 'images/index-modules03-img01-big.jpg',
-            'id': 'playerID',
-            'width': '100%',
-            'aspectratio':'10:6',
-            'file': 'video/jq22com.mp4'
+            'file': 'http://jq22com.qiniudn.com/jq22com.mp4'
         });
-
     </script>
     <script src="js/pageJs/index.js"></script>
 </body>

@@ -2,8 +2,8 @@
 $(function (){
 
     //banner切换
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
+    var swiper = new Swiper('.swiper-container-banner', {
+        pagination: '.swiper-pagination-banner',
         paginationClickable: true,
         autoplay: 9000
     });

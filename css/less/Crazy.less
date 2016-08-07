@@ -92,18 +92,18 @@
             background: #fff;
             position: relative;
             .wrapcon{
-                width: 785px;
+                width: 795px;
                 height: 475px;/*450*/
                 padding: 5px 5px 0;
                 overflow: hidden;
-                #mediaplayer_logo{
-                    display: none!important;
-                }
             }
             .tabcon{
                 width: 771px;
                 height: 115px;
                 padding: 11px 12px 0 12px;
+                box-sizing: content-box;
+                -moz-box-sizing: content-box; /* Firefox */
+                -webkit-box-sizing: content-box; /* Safari */
                 li{
                     width: 185px;
                     height: 104px;
@@ -111,6 +111,9 @@
                     padding-right: 10px;
                     position: relative;
                     cursor: pointer;
+                    box-sizing: content-box;
+                    -moz-box-sizing: content-box; /* Firefox */
+                    -webkit-box-sizing: content-box; /* Safari */
                     img{
                         width: 100%;
                         height: auto;
@@ -306,7 +309,122 @@
     }
 
 }
-
+.carnival{
+    background: #f7f7f7;
+    .banner{
+        .view1{
+            span.span1{
+                margin-left: -404px;
+                img{
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+    .main{
+        background: #fff;
+        border: 1px solid #e4e4e4;
+        padding: 0 47px;
+    }
+    .plan{
+        overflow: hidden;
+        background: url(../images/carnival-jihuabiao.jpg) center 30px no-repeat;
+        border-bottom: 1px dashed #e4e4e4;
+        li{
+            float: left;
+            text-align: center;
+            margin-top: 88px;
+            margin-right: 194px;
+            padding-bottom: 30px;
+            p{
+                font-size: 18px;
+                color: #333;
+                line-height: 24px;
+            }
+            span{
+                font-size: 16px;
+                color: #666;
+            }
+        }
+        li.nomarginrig{
+            margin-right: 0;
+        }
+    }
+    h3{
+        color: #52ce52;
+        font-size: 30px;
+        padding: 40px 0 22px 0;
+        text-align: center;
+        font-weight: normal;
+    }
+    .videos-box{
+        .mediaplayer-box{
+            width: 795px;
+            height: 466px;
+            border: 15px solid #f0f0f0;
+            margin: 0 auto;
+        }
+    }
+    .cozy-time{
+        width: 795px;
+        margin: 0 auto;
+        h3{
+            color: #ff9a00;
+        }
+        .img{
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        p{
+            color: #666;
+            text-align: center;
+            line-height: 22px;
+            margin: -10px 0 15px;
+        }
+    }
+    .product-taste{
+        h3{
+            color: #30c3e4;
+        }
+    }
+    .modules04{
+        h3{
+            color: #e84b8e;
+        }
+        .imglist{
+            margin: 0;
+            width: 795px;
+            li{
+                padding-right: 10px;
+                margin-bottom: 40px;
+                a{
+                    width: 258px;
+                    height: 165px;
+                    p{
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+    .active{
+        h3{
+            color: #fd7158;
+        }
+        .swiper-container {
+            width: 500px;
+            height: 300px;
+            margin: 20px auto;
+        }
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            line-height: 300px;
+        }
+    }
+}
 /*详情页*/
 .details{
     background: #f6f6f6;
@@ -1315,4 +1433,15 @@
 }
 .noborder{
     border: none!important;
+}
+#mediaplayer_display_button_play,#mediaplayer_display_button_replay{
+    width: 84px!important;
+    height: 84px!important;
+    background: url(../images/play-ico.png) no-repeat!important;
+}
+#mediaplayer_display_button{
+    background: transparent none!important;
+}
+#mediaplayer_logo{
+    display: none!important;
 }

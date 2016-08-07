@@ -14,7 +14,7 @@
     <link href="css/swiper.css" rel="stylesheet" type="text/css">
     <link href="css/allcss.css" rel="stylesheet" type="text/css">
 </head>
-<body id="currPage" data-pageJs="pageJs/find-password" class="personal-center login">
+<body id="currPage" data-pageJs="pageJs/register" class="personal-center login">
 
 <!--头部 start-->
 <div class="header">
@@ -50,28 +50,31 @@
 <div class="main main-box">
     <div class="main-box-content">
         <div class="con-box con-box-01">
-            <h2>注册新用户</h2>
+            <h2><img src="images/login-header.png"/><p>一个账号,玩转所有服务</p> </h2>
             <ul class="tabcon-li">
                 <li>
                     <input type="text" placeholder="手机号码"/>
                     <em class="validate-prompt">请输入正确的手机号码</em>
                 </li>
                 <li>
-                    <input type="text" placeholder="输入验证码" class="validate-code"/><a class="validate-img"></a>
-                </li>
-                <li>
-                    <input type="text" placeholder="手机验证码" class="validate-code"/><input type="button" id="send-mobile-code" value="发送验证码" class="send-validate-code"/>
-                </li>
-                <li>
-                    <input type="text" placeholder="输入密码"/>
-                </li>
-                <li>
-                    <input type="text" placeholder="重复密码"/>
+                    <input type="text" placeholder="密码"/>
                 </li>
             </ul>
-            <p href="##" class="agreement-txt">点击注册表示同意<a href="##">用户协议</a></p>
-            <a href="##" class="security-btn">注册</a>
-            <p href="##" class="jump-login-txt">已有账号？<a href="##">马上登陆&gt;</a></p>
+            <a href="##" class="security-btn login-btn">登录</a>
+            <ul class="tabcon-li-01">
+                <li><a href="login.html">注册账号</a> </li>
+                <li><a href="find-password.html">忘记密码</a> </li>
+            </ul>
+            <div class="others-method">
+                <em class="fl"></em>
+                其他方式登录
+                <em class="fr"></em>
+            </div>
+            <ul class="tabcon-li-02">
+                <li><a href="##"><i></i></a></li>
+                <li  class="on"><a href="##"><i></i></a></li>
+                <li><a href="##"><i></i></a></li>
+            </ul>
         </div>
     </div>
 </div>
