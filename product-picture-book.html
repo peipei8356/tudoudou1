@@ -53,7 +53,7 @@
 </div>
 <!--end-->
 
-<!--banner start-->
+<!--query-condition start-->
 <div class="query-condition-box">
     <div class="query-condition-title">
         <h2><span>土豆讲故事</span><i>&gt;</i><span>大师绘本</span></h2>
@@ -71,7 +71,7 @@
     </div>
     <div class="query-condition-view">
         <ul class="classify-list classify-list-02">
-            <li><a href="##">全部:</a></li>
+            <li><a href="##">全部 :</a></li>
             <li><a href="##">童话故事</a></li>
             <li class="active"><a href="##">童谣儿歌</a></li>
             <li><a href="##">经典绘本</a></li>
@@ -81,7 +81,7 @@
             <li><a href="##">名著</a> </li>
         </ul>
         <ul class="classify-list classify-list-03">
-            <li><a href="##">全部:</a></li>
+            <li><a href="##">全部 :</a></li>
             <li><a href="##">0-3岁</a></li>
             <li class="active"><a href="##">3-6岁</a></li>
             <li><a href="##">6-12岁</a></li>
@@ -143,19 +143,20 @@
             </div>
         </div>
         <div class="modules modules05">
-            <div class="paging-box">
-                <ul class="paging-con">
-                        <li class="first-page"><a href="##">首页</a></li>
-                        <li class="previous-page"></li>
-                        <li class="paging-li active"><a href="##">1</a></li>
-                        <li class="paging-li"><a href="##">2</a></li>
-                        <li class="paging-li"><a href="##">3</a></li>
-                        <li class="paging-li"><a href="##">4</a></li>
-                        <li class="paging-li"><a href="##">113</a></li>
-                        <li class="next-page"><a href="##"></a></li>
-                        <li class="last-page"><a href="?page=8">尾页</a></li>
-                    </ul>
-           </div>
+            <div class="modules-con">
+                <div class="paging-box">
+                    <a class="first-page" href="##">首页</a>
+                    <a class="previous-page" href="##"></a>
+                    <a class="paging-li active" href="##">1</a>
+                    <a class="paging-li" href="##">2</a>
+                    <a class="paging-li" href="##">3</a>
+                    <a class="paging-li" href="##">4</a>
+                    <a>...</a>
+                    <a class="paging-li" href="##">113</a>
+                    <a class="next-page" href="##"></a>
+                    <a class="last-page" href="##">尾页</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -223,7 +224,7 @@
         $(this).addClass("active");
     });
     //分页
-    $(".paging-con .paging-li").click(function(){
+    $(".paging-box .paging-li").click(function(){
         $(this).siblings(".paging-li").removeClass("active");
         $(this).addClass("active");
     });

@@ -1330,6 +1330,7 @@ em.validate-prompt{
     }
     li{
       float: left;
+      line-height:25px;
       margin-right:34px;
       a{
         color: #666;
@@ -1338,8 +1339,7 @@ em.validate-prompt{
     li.active{
       a{
         color: #fff;
-        display: block;
-        padding:6px 18px;
+        padding:0 18px;
       }
       background: #52ce52;
       border-radius: 25px;
@@ -1415,54 +1415,44 @@ em.validate-prompt{
   .modules04{
      background: #f08b30;
   }
-  .modules-5{
+  .modules05{
     .modules-con{
       height:185px!important;
+      padding-top:50px;
+      a{
+        float: left;
+        width:28px;
+        height:28px;
+        text-align: center;
+        padding-top:7px;
+        margin-right:10px;
+        color: #666;
+      }
+      a.first-page{
+        width:auto;
+        margin-right:18px;
+      }
+      a.last-page{
+        width: auto;
+        margin-left:18px;
+      }
+      a.previous-page{
+        background: url("../images/previous-page.png") center no-repeat;
+      }
+      a.next-page{
+
+        background: url("../images/next-page.png") center no-repeat;
+      }
+      a.active{
+        color: #fff;
+        background: url("../images/page-bg.png") center no-repeat;
+      }
     }
   }
   .paging-box{
-    width:1000px;
-    height:187px;
+    width:410px;
     margin:0 auto;
     text-align: center;
-  }
-  .paging-con{
-    overflow: hidden;
-    width:380px;
-    margin:0 auto;
-    padding-top:50px;
-    li{
-      float: left;
-      width:28px;
-      height:28px;
-      text-align: center;
-      padding-top:7px;
-      margin-right:10px;
-      a{
-        color: #666;
-      }
-    }
-    li.first-page{
-      width:auto;
-      margin-right:18px;
-    }
-    li.last-page{
-      width: auto;
-      margin-left:18px;
-    }
-    li.previous-page{
-      background: url("../images/previous-page.png") center no-repeat;
-    }
-    li.next-page{
-
-      background: url("../images/next-page.png") center no-repeat;
-    }
-    li.active{
-      a{
-        color: #fff;
-      }
-      background: url("../images/page-bg.png") center no-repeat;
-    }
   }
   //win-prop
   .win-prop{
