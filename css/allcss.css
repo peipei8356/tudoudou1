@@ -548,6 +548,7 @@ body {
   width: 100%;
   height: 256px;
   padding-top: 9px;
+  margin-top: -9px;
   background: url(../images/footer-bg.png) left top repeat-x;
   position: relative;
 }
@@ -3381,6 +3382,423 @@ em.validate-prompt {
   background: rgba(0, 0, 0, 0.5);
 }
 .product-DadAndMom #mediaplayer {
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  margin-top: -250px;
+  margin-left: -400px;
+}
+.product-early-education .banner {
+  width: 100%;
+  height: 713px;
+  background: url("../images/pro-banner-img6.jpg") center no-repeat;
+}
+.product-early-education .banner-box {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.product-early-education .banner-box .banner-con-box {
+  padding-top: 130px;
+  text-align: center;
+}
+.product-early-education .banner-box .banner-con-box img {
+  display: block;
+  margin: 0 auto;
+}
+.product-early-education .banner-box .banner-con-box .img2 {
+  margin: 27px auto 19px;
+}
+.product-early-education .banner-box .banner-con-box p {
+  color: #eb487e;
+  font-size: 20px;
+  line-height: 20px;
+}
+.product-early-education .main-con-box {
+  width: 100%;
+}
+.product-early-education .modules {
+  width: 100%;
+}
+.product-early-education .modules .modules-con {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+}
+.product-early-education .modules01,
+.product-early-education .modules02,
+.product-early-education .modules03,
+.product-early-education .modules04,
+.product-early-education .modules05 {
+  height: 800px;
+}
+.product-early-education .modules01 {
+  background: #38cec9;
+}
+.product-early-education .modules01 .modules-con {
+  padding-top: 52px;
+}
+.product-early-education .modules01 ul {
+  width: 100%;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.product-early-education .modules01 li {
+  width: 323px;
+  float: left;
+}
+.product-early-education .modules01 li span {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  margin-bottom: 14px;
+}
+.product-early-education .modules01 li i {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 6px;
+  margin-right: 10px;
+  background: url("../images/pro-list-bg.png") center no-repeat;
+}
+.product-early-education .modules01 li em {
+  width: 35%;
+  height: 1px;
+  margin-left: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  border-top: 1px dashed #fff;
+}
+.product-early-education .modules01 .center-li {
+  margin: 0 15px;
+}
+.product-early-education .modules02 {
+  text-align: center;
+  background: url("../images/pro-banner-img7.jpg") center no-repeat;
+}
+.product-early-education .modules02 .modules-con {
+  padding-top: 77px;
+}
+.product-early-education .modules03 {
+  background: url("../images/pro-banner-img8.jpg") center no-repeat;
+}
+.product-early-education .modules03 .modules-con {
+  padding-top: 210px;
+}
+.product-early-education .modules03 ul {
+  margin-top: 51px;
+}
+.product-early-education .modules03 li {
+  color: #fff;
+  font-size: 24px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 25px;
+  background: url("../images/pro-list-bg1.png") 3px center no-repeat;
+}
+.product-early-education .modules04 {
+  background: #fabf41;
+  padding-top: 128px;
+}
+.product-early-education .modules04 .text-box {
+  text-align: center;
+}
+.product-early-education .modules04 h2 {
+  width: 100%;
+  height: 51px;
+  background: url("../images/pro-txt-img6.png") center no-repeat;
+}
+.product-early-education .modules04 p {
+  font-size: 24px;
+  color: #fff;
+}
+.product-early-education .modules04 .p1 {
+  margin: 50px 0 24px;
+}
+.product-early-education .modules04 .teacher-list {
+  overflow: hidden;
+  margin-top: 102px;
+}
+.product-early-education .modules04 .teacher-list li {
+  width: 206px;
+  margin-right: 58px;
+  float: left;
+  text-align: center;
+}
+.product-early-education .modules04 .teacher-list em {
+  display: block;
+  width: 20px;
+  height: 1px;
+  border-top: 1px solid #fff;
+  margin: 20px auto 22px;
+}
+.product-early-education .modules04 .teacher-list span {
+  font-size: 24px;
+  color: #fff;
+}
+.product-early-education .modules04 .teacher-list .no-margin {
+  margin-right: 0 !important;
+}
+.product-early-education .modules04 .teacher-list img {
+  width: 206px;
+  height: 206px;
+}
+.product-early-education .modules05 {
+  background: url("../images/pro-banner-img9.jpg") center no-repeat;
+}
+.product-early-education .modules05 .modules-con {
+  padding-top: 128px;
+}
+.product-early-education .modules05 .modules-con h2 {
+  width: 100%;
+  height: 59px;
+  margin-bottom: 22px;
+  background: url("../images/pro-txt-img7.png") center no-repeat;
+}
+.product-early-education .modules05 .modules-con p {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+.product-early-education .modules05 .modules-con h3 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: normal;
+  margin-top: 134px;
+  padding-left: 605px;
+}
+.product-early-education .modules05 .modules-con .modules-5-list {
+  width: 100%;
+  padding-left: 605px;
+  display: block;
+  margin-top: 50px;
+}
+.product-early-education .modules05 .modules-con li {
+  list-style: none;
+  color: #fff;
+  font-size: 24px;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 25px;
+  background: url("../images/pro-list-bg1.png") 3px center no-repeat;
+}
+.product-early-education .modules06 {
+  height: 837px;
+  background: url("../images/pro-banner-img10.jpg") center no-repeat;
+}
+.product-early-education .modules06 .modules-con {
+  padding-top: 130px;
+}
+.product-early-education .modules06 .modules-con p {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 18px;
+}
+.product-early-education .modules06 .modules-con span {
+  margin-top: 68px;
+  color: #666;
+  font-size: 20px;
+  display: block;
+}
+.product-early-education .modules06 .modules-con img {
+  display: block;
+  position: relative;
+  top: -28px;
+}
+.product-picture-book .query-condition-box {
+  width: 100%;
+}
+.product-picture-book .query-condition-title {
+  width: 1000px;
+  margin: 0 auto;
+}
+.product-picture-book .query-condition-title h2 {
+  height: 51px;
+  line-height: 51px;
+  color: #666;
+  font-size: 18px;
+  font-weight: normal;
+}
+.product-picture-book .query-condition-title h2 i {
+  margin: 0 6px;
+}
+.product-picture-book .query-condition-classify {
+  height: 80px;
+  line-height: 80px;
+  background: #f6f6f6;
+}
+.product-picture-book .query-condition-classify .classify-list-01 {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.product-picture-book .query-condition-classify .classify-list-01 li {
+  float: left;
+  margin-right: 45px;
+}
+.product-picture-book .query-condition-classify .classify-list-01 li a {
+  color: #666;
+  font-size: 16px;
+  line-height: 16px;
+}
+.product-picture-book .query-condition-classify .classify-list-01 li.active {
+  margin-top: 17px;
+  background: #52ce52;
+  border-radius: 25px;
+}
+.product-picture-book .query-condition-classify .classify-list-01 li.active a {
+  color: #fff;
+  display: block;
+  padding: 15px 36px;
+}
+.product-picture-book .query-condition-view {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 35px 0;
+}
+.product-picture-book .query-condition-view ul {
+  display: block;
+  overflow: hidden;
+}
+.product-picture-book .query-condition-view .classify-list-02 {
+  margin-bottom: 24px;
+}
+.product-picture-book .query-condition-view li {
+  float: left;
+  line-height: 25px;
+  margin-right: 34px;
+}
+.product-picture-book .query-condition-view li a {
+  color: #666;
+}
+.product-picture-book .query-condition-view li.active {
+  background: #52ce52;
+  border-radius: 25px;
+}
+.product-picture-book .query-condition-view li.active a {
+  color: #fff;
+  padding: 0 18px;
+}
+.product-picture-book .main-con-box {
+  width: 100%;
+}
+.product-picture-book .modules {
+  width: 100%;
+}
+.product-picture-book .modules .modules-con {
+  width: 1000px;
+  margin: 0 auto;
+  height: 620px;
+  color: #fff;
+  overflow: auto;
+  padding-top: 124px;
+}
+.product-picture-book .modules .txt-box {
+  width: 560px;
+  float: left;
+}
+.product-picture-book .modules .vedio-box {
+  float: right;
+  width: 440px;
+  padding-left: 69px;
+  position: relative;
+}
+.product-picture-book .modules .vedio-box img {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.product-picture-book .modules .vedio-box span {
+  text-align: center;
+  position: relative;
+  top: -207px;
+  cursor: pointer;
+}
+.product-picture-book .modules .vedio-box i {
+  width: 54px;
+  height: 54px;
+  display: block;
+  margin: 0 auto 28px;
+  background: url("../images/pro-play-btn.png") center no-repeat;
+}
+.product-picture-book .modules .vedio-box em {
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+}
+.product-picture-book .modules h2 {
+  margin: 48px 0;
+  font-size: 50px;
+  font-weight: normal;
+}
+.product-picture-book .modules p {
+  font-size: 24px;
+  line-height: 46px;
+}
+.product-picture-book .modules01 {
+  background: #269ce5;
+}
+.product-picture-book .modules02 {
+  background: #98c73b;
+}
+.product-picture-book .modules03 {
+  background: #f5c02a;
+}
+.product-picture-book .modules04 {
+  background: #f08b30;
+}
+.product-picture-book .modules05 .modules-con {
+  height: 185px!important;
+  padding-top: 50px;
+}
+.product-picture-book .modules05 .modules-con a {
+  float: left;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  padding-top: 7px;
+  margin-right: 10px;
+  color: #666;
+}
+.product-picture-book .modules05 .modules-con a.first-page {
+  width: auto;
+  margin-right: 18px;
+}
+.product-picture-book .modules05 .modules-con a.last-page {
+  width: auto;
+  margin-left: 18px;
+}
+.product-picture-book .modules05 .modules-con a.previous-page {
+  background: url("../images/previous-page.png") center no-repeat;
+}
+.product-picture-book .modules05 .modules-con a.next-page {
+  background: url("../images/next-page.png") center no-repeat;
+}
+.product-picture-book .modules05 .modules-con a.active {
+  color: #fff;
+  background: url("../images/page-bg.png") center no-repeat;
+}
+.product-picture-book .paging-box {
+  width: 410px;
+  margin: 0 auto;
+  text-align: center;
+}
+.product-picture-book .win-prop {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.5);
+}
+.product-picture-book #mediaplayer {
   position: fixed;
   display: none;
   top: 50%;
