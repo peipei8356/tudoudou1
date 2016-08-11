@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1c3aa80-a50c-46ee-8e38-121fbd51b77a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/allcss.css" afterPath="$PROJECT_DIR$/css/allcss.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/Ava.less" afterPath="$PROJECT_DIR$/css/less/Ava.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/less/public.less" afterPath="$PROJECT_DIR$/css/less/public.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product-picture-book.html" afterPath="$PROJECT_DIR$/product-picture-book.html" />
     </list>
     <ignored path="tudou.iws" />
@@ -28,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ava.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ava.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/less/Ava.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="1466" column="3" selection-start-line="1466" selection-start-column="3" selection-end-line="1466" selection-end-column="3" />
+            <state relative-caret-position="413">
+              <caret line="1452" column="16" selection-start-line="1452" selection-start-column="16" selection-end-line="1452" selection-end-column="16" />
               <folding>
                 <element signature="e#34#346#0" expanded="false" />
                 <element signature="e#360#600#0" expanded="false" />
@@ -149,25 +146,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-picture-book.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product-picture-book.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product-picture-book.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+            <state relative-caret-position="343">
+              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
               <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#2266#2270#1" expanded="true" />
+                <element signature="e#2258#2262#1" expanded="true" />
                 <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#7835#7933#0" expanded="false" />
-                <element signature="e#7995#8092#0" expanded="false" />
-                <element signature="e#8145#8242#0" expanded="false" />
-                <element signature="e#8472#8707#0" expanded="false" />
-                <element signature="e#8766#8870#0" expanded="false" />
+                <element signature="e#7827#7925#0" expanded="false" />
+                <element signature="e#7987#8084#0" expanded="false" />
+                <element signature="e#8137#8234#0" expanded="false" />
+                <element signature="e#8464#8699#0" expanded="false" />
+                <element signature="e#8758#8862#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -225,8 +221,8 @@
         <option value="$PROJECT_DIR$/css/allcss.css" />
         <option value="$PROJECT_DIR$/product-tudou-DadandMom.html" />
         <option value="$PROJECT_DIR$/css/less/public.less" />
-        <option value="$PROJECT_DIR$/product-picture-book.html" />
         <option value="$PROJECT_DIR$/css/less/Ava.less" />
+        <option value="$PROJECT_DIR$/product-picture-book.html" />
       </list>
     </option>
   </component>
@@ -438,12 +434,12 @@
       <workItem from="1470613133402" duration="1792000" />
       <workItem from="1470793340196" duration="599000" />
       <workItem from="1470796635074" duration="277000" />
-      <workItem from="1470880983897" duration="29674000" />
+      <workItem from="1470880983897" duration="29944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127575000" />
+    <option name="totallyTimeSpent" value="127845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1101,32 +1097,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product-picture-book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2266#2270#1" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#7835#7933#0" expanded="false" />
-            <element signature="e#7995#8092#0" expanded="false" />
-            <element signature="e#8145#8242#0" expanded="false" />
-            <element signature="e#8472#8707#0" expanded="false" />
-            <element signature="e#8766#8870#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/less/Ava.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="1466" column="3" selection-start-line="1466" selection-start-column="3" selection-end-line="1466" selection-end-column="3" />
+        <state relative-caret-position="413">
+          <caret line="1452" column="16" selection-start-line="1452" selection-start-column="16" selection-end-line="1452" selection-end-column="16" />
           <folding>
             <element signature="e#34#346#0" expanded="false" />
             <element signature="e#360#600#0" expanded="false" />
@@ -1238,6 +1212,27 @@
             <element signature="e#29078#29781#0" expanded="false" />
             <element signature="e#29889#30042#0" expanded="false" />
             <element signature="e#30057#30194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product-picture-book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2258#2262#1" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#7827#7925#0" expanded="false" />
+            <element signature="e#7987#8084#0" expanded="false" />
+            <element signature="e#8137#8234#0" expanded="false" />
+            <element signature="e#8464#8699#0" expanded="false" />
+            <element signature="e#8758#8862#0" expanded="false" />
           </folding>
         </state>
       </provider>
